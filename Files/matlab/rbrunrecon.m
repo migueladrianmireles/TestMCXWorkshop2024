@@ -157,9 +157,9 @@ for iter=1:maxiter
     tic
     
     if isfield(recon,'param')
-        recon.param
+        recon.param;
     elseif (size(recon.prop,1) < 6)
-        recon.prop
+        recon.prop;
     end
     
     % update forward mesh prop/param using recon mesh prop/param if given
